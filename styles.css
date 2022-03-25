@@ -23,6 +23,8 @@ body {
 h1 {
   font-family: "Nunito", sans-serif;
   color: #e9f1f7;
+
+  display: inline;
   transition-duration: 0.2s;
 }
 
