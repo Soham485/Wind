@@ -1,2 +1,31 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=PT+Sans&family=ZCOOL+KuaiLe&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto + Sans&family=Nunito:wght@600&family=PT+Sans&family=ZCOOL+KuaiLe&display=swap");
 @import url("https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css");
+
+body {
+  background-image: linear-gradient(
+    to right top,
+    #40f99b,
+    #00e2b6,
+    #00c8c2,
+    #00adbd,
+    #4692a9,
+    #5187a3,
+    #5b7c99,
+    #62728d,
+    #697298,
+    #7771a0,
+    #896ea4,
+    #9d69a3
+  );
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family: "Nunito", sans-serif;
+  color: #e9f1f7;
+  transition-duration: 0.2s;
+}
+
+h1:hover {
+  font-size: 2.4em;
+}
