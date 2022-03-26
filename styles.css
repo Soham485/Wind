@@ -89,3 +89,12 @@ button:hover span {
 button:active {
   transform: scale(0.9);
 }
+
+.down {
+  text-shadow: 2px 3px 0px #36454f;
+  transition-duration: 0.2s;
+}
+
+.down:hover {
+  text-shadow: 0px 0px 0px #36454f;
+}
