@@ -98,3 +98,27 @@ button:active {
 .down:hover {
   text-shadow: 0px 0px 0px #36454f;
 }
+
+.rainbow {
+  color: #fff;
+  animation: rainbow 2s infinite;
+  text-shadow: 1px 1px 0px#36454f;
+}
+
+@keyframes rainbow {
+  0% {
+    color: #fff;
+  }
+  25% {
+    color: red;
+  }
+  50% {
+    color: orange;
+  }
+  75% {
+    color: yellow;
+  }
+  100% {
+    color: #fff;
+  }
+}
